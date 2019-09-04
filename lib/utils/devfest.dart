@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Devfest {
-  static const String app_name = "Devfest";
+  static const String app_name = "Devfest19Addis";
   static const String app_version = "Version 1.0.4";
   static const int app_version_code = 1;
   static const String app_color = "#ffd7167";
@@ -37,9 +37,9 @@ class Devfest {
   static const String banner_dark = "assets/images/banner_dark.png";
 
   //*  Texts
-  static const String welcomeText = "Welcome to GDG DevFest";
+  static const String welcomeText = "Welcome to GDGAddis DevFest19";
   static const String descText =
-      '''DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building & learning about Google’s technologies. Each DevFest is inspired by and uniquely tailored to the needs of the developer community and region that hosts it.''';
+      '''GDGAddis's DevFest (Developers Festival) is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more. This is a gathering of developers and technology enthusiasts to cover multiple product areas such as Android, Firebase, Android Things, Kotlin, Flutter, Google Cloud Platform, ARCore, Google Assistant, Design Sprint, IoT, Machine Learning, Mobile Web and Artificial intelligence.''';
 
   static const String loading_text = "Loading...";
   static const String try_again_text = "Try Again";
@@ -61,7 +61,7 @@ class Devfest {
   static const String agenda_text = "Agenda";
   static const String speakers_text = "Speakers";
   static const String team_text = "Team";
-  static const String sponsor_text = "Sponsors";
+  static const String sponsor_text = "Partners";
   static const String faq_text = "FAQ";
   static const String map_text = "Locate Us";
 

@@ -12,27 +12,25 @@ class SponsorPage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           SponsorImage(
-            imgUrl: "https://devfest.gdgkolkata.org/assets/img/logos/gd.png",
+            imgUrl: "./assets/images/gdglogo.png",
           ),
           SizedBox(
             height: 30,
           ),
           SponsorImage(
-            imgUrl: "https://devfest.gdgkolkata.org/assets/img/jetbrains.png",
+            imgUrl: "./assets/images/us_embassy_ethiopia.jpg",
           ),
           SizedBox(
             height: 30,
           ),
           SponsorImage(
-            imgUrl:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/220px-Kotlin-logo.svg.png",
+            imgUrl: "./assets/images/usaid.jpg",
           ),
           SizedBox(
             height: 30,
           ),
           SponsorImage(
-            imgUrl:
-                "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_0016c93c710cf35990b999cba3a59bae/firebase.png",
+            imgUrl: "./assets/images/wtm.png",
           )
         ],
       ),
