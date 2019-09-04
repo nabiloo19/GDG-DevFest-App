@@ -85,6 +85,13 @@ class HomeFront extends StatelessWidget {
             colorBrightness: Brightness.dark,
             onPressed: () => Navigator.pushNamed(context, MapPage.routeName),
           ),
+          RaisedButton(
+            child: Text("Registeration"),
+            shape: StadiumBorder(),
+            color: Colors.blue,
+            colorBrightness: Brightness.dark,
+            onPressed: () => Navigator.pushNamed(context, RegPage.routeName),
+          ),
         ],
       );
 
@@ -130,6 +137,12 @@ class HomeFront extends StatelessWidget {
             color: Colors.blue,
             title: Devfest.map_text,
             onPressed: () => Navigator.pushNamed(context, MapPage.routeName),
+          ),
+          ActionCard(
+            icon: Icons.person_add,
+            color: Colors.blue,
+            title: Devfest.reg_text,
+            onPressed: () => Navigator.pushNamed(context, RegPage.routeName),
           )
         ],
       );
